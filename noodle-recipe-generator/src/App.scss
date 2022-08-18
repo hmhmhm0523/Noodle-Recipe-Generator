@@ -126,7 +126,7 @@ p {
     background-color: $secondaryColor;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgb(255 114 0 / 25%);
-}
+  }
 }
 
 .container {
@@ -142,12 +142,13 @@ p {
   border-radius: 1em;
   box-shadow: 4px 8px 2em $gray200;
   align-items: center;
-  text-align: center;
+  
   padding: 4em;
 
   &.HomeCard {
     max-width: 40em;
     padding: 2em 4em 4em 4em;
+    text-align: center;
   }
 
   &.BuildCard {
@@ -155,6 +156,12 @@ p {
       font-size: 1.5em;
       margin-bottom: 1em;
     }
+  }
+
+  &.RecipeCard {
+    padding-top: 1em;
+    width: 50em;
+
   }
 }
 
@@ -176,4 +183,30 @@ form {
   box-shadow: 0px 2px 10px $gray200;
   border-radius: 1em;
   margin-right: 2em;
+}
+
+
+.nav-item{
+  outline: none;
+
+}
+
+.nav-tabs .nav-link {
+  color: $gray500;
+  outline: none;
+  transition: none;
+  &:hover {
+    border: none;
+    border-bottom: 4px solid $primaryColor;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &.active{
+    color: $primaryColor;
+    border: none;
+    border-bottom: 4px solid $primaryColor;
+  }
 }

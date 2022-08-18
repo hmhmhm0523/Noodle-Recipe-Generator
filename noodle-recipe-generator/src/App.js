@@ -1,6 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
-import About from "./pages/About"
+import Recipe from "./pages/Recipe"
 import BuildRecipe from "./pages/BuildRecipe"
 import './App.scss'
 
@@ -19,7 +19,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/Noodle-Recipe-Generator" element={<Home />} />
-        <Route path="/Noodle-Recipe-Generator/about" element={<About />} />
+        <Route path="/Noodle-Recipe-Generator/recipe" element={<Recipe />} />
         <Route path="/Noodle-Recipe-Generator/buildRecipe" element={<BuildRecipe />} />
       </Routes>
       <footer class="bg-light text-center text-lg-start">

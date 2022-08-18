@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button, Card, Container, Row, Col, Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -52,7 +53,7 @@ export default function BuildRecipe() {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox3">
                   <Form.Check type="checkbox" label="Pickled Beans" />
                 </Form.Group></Col>
-                
+
               <Col>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox4">
                   <Form.Check type="checkbox" label="Chilli Pepper" />
@@ -62,9 +63,8 @@ export default function BuildRecipe() {
                   <Form.Check type="checkbox" label="Fried Egg" />
                 </Form.Group></Col>
             </Row>
-            <Button variant="primary" type="submit">
-              Generate Recipe
-            </Button>
+            <Link to="/Noodle-Recipe-Generator/recipe" className="ButtonPanel"><Button >Generate Recipe</Button> </Link>
+
           </Form>
         </Col>
       </Row>

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Home() {
     return (<Container>
-        <Card md>
+        <Card className='HomeCard'>
             <div className="Logo"></div>
             <h1>
                 Hunan Noodle Soup <br />

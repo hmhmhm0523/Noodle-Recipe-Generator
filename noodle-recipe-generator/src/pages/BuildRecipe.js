@@ -7,7 +7,7 @@ export default function BuildRecipe() {
   return (<Container>
 
     <Card className='BuildCard'>
-      <Row>
+      <Row className="BuildRecipeRow">
         <Col>
           <div className="Noodle"></div>
         </Col>

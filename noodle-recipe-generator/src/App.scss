@@ -144,6 +144,10 @@ p {
   width: 100%;
 }
 
+label {
+  white-space: nowrap;
+}
+
 .btn {
   border: none;
   background-color: $primaryColor;
@@ -180,21 +184,24 @@ p {
   align-items: center;
   padding: 4em;
 
-  @media only screen and (max-width: 800px) {
-    font-size: 14px;
+  @media only screen and (max-width: 600px) {
+    font-size: 13px;
   }
 
   &.HomeCard {
     max-width: 40em;
     padding: 2em 4em 4em 4em;
     text-align: center;
-    @media only screen and (max-width: 800px) {
-      font-size: 14px;
+    @media only screen and (max-width: 600px) {
       padding: 1em 2em 2em 2em;
 
       h1 {
         font-size: 1.2em;
         margin-bottom: 1em;
+      }
+
+      iframe {
+        display: none;
       }
     }
   }
@@ -203,6 +210,9 @@ p {
     h1 {
       font-size: 1.5em;
       margin-bottom: 1em;
+    }
+    @media only screen and (max-width: 600px) {
+      padding: 2em;
     }
   }
 
@@ -253,6 +263,10 @@ iframe {
 
 form {
   text-align: left;
+
+  @media only screen and (max-width: 600px) {
+    width: 70vw;
+  }
 }
 
 .Noodle {
@@ -311,4 +325,8 @@ form {
   width: 100%;
   overflow: auto;
   padding: 1em 2em;
+  @media only screen and (max-width: 600px) {
+    padding: 1em;
+    top: 4em;
+  }
 }

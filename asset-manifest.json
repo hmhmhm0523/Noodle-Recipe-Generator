@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Noodle-Recipe-Generator/static/css/main.b3c605bf.css",
-    "main.js": "/Noodle-Recipe-Generator/static/js/main.a99ccd2b.js",
+    "main.css": "/Noodle-Recipe-Generator/static/css/main.15261d08.css",
+    "main.js": "/Noodle-Recipe-Generator/static/js/main.deb1ab62.js",
     "static/js/787.ae1215f8.chunk.js": "/Noodle-Recipe-Generator/static/js/787.ae1215f8.chunk.js",
     "static/media/NoodleSoup.svg": "/Noodle-Recipe-Generator/static/media/NoodleSoup.22b8fbd1f24e977e8041.svg",
     "static/media/RamenImage.svg": "/Noodle-Recipe-Generator/static/media/RamenImage.0f51611a808a84afeb53.svg",
@@ -9,12 +9,12 @@
     "static/media/Lulo Clean One Bold.otf": "/Noodle-Recipe-Generator/static/media/Lulo Clean One Bold.5452a28cd207074b0f46.otf",
     "static/media/Recipe Logo.svg": "/Noodle-Recipe-Generator/static/media/Recipe Logo.53125de880810b44dc05.svg",
     "index.html": "/Noodle-Recipe-Generator/index.html",
-    "main.b3c605bf.css.map": "/Noodle-Recipe-Generator/static/css/main.b3c605bf.css.map",
-    "main.a99ccd2b.js.map": "/Noodle-Recipe-Generator/static/js/main.a99ccd2b.js.map",
+    "main.15261d08.css.map": "/Noodle-Recipe-Generator/static/css/main.15261d08.css.map",
+    "main.deb1ab62.js.map": "/Noodle-Recipe-Generator/static/js/main.deb1ab62.js.map",
     "787.ae1215f8.chunk.js.map": "/Noodle-Recipe-Generator/static/js/787.ae1215f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3c605bf.css",
-    "static/js/main.a99ccd2b.js"
+    "static/css/main.15261d08.css",
+    "static/js/main.deb1ab62.js"
   ]
 }

@@ -19,13 +19,13 @@ function App() {
       </nav>
       <Routes>
         <Route path="/Noodle-Recipe-Generator" element={<Home />} />
-        <Route path="/Noodle-Recipe-Generator/recipe" element={<Recipe />} />
         <Route path="/Noodle-Recipe-Generator/buildRecipe" element={<BuildRecipe />} />
+        <Route path="/Noodle-Recipe-Generator/recipe" element={<Recipe />} />
       </Routes>
-      <footer class="bg-light text-center text-lg-start">
+      <footer class="text-center text-lg-start">
 
         <div class="text-center p-3">
-          <span>© 2022 Copyright: </span>
+          <span>© 2022 Created By: </span>
           <a class="text-dark" href="https://mhuang6.com/">Meng Huang</a>
         </div>
       </footer>

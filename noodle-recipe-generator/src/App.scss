@@ -28,6 +28,27 @@ body,
   width: 100%;
   height: 100%;
   position: absolute;
+  overflow: hidden;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $gray100 $gray200;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $gray200;
+  border-radius: 20px;
+  border: 3px solid $gray0;
 }
 
 .App {
@@ -64,6 +85,11 @@ body,
   }
 }
 
+footer {
+  width: 100%;
+  background-color: $gray100;
+}
+
 h1 {
   font-family: "Lulo Clean One Bold", "Lobster";
   font-size: 1.8em;
@@ -77,6 +103,16 @@ h4 {
   font-size: 1em;
   font-family: "Lulo Clean One";
   margin: 1em;
+}
+
+a {
+  color: $primaryColor;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $secondaryColor;
+  }
 }
 
 p {
@@ -142,7 +178,7 @@ p {
   border-radius: 1em;
   box-shadow: 4px 8px 2em $gray200;
   align-items: center;
-  
+
   padding: 4em;
 
   &.HomeCard {
@@ -159,10 +195,26 @@ p {
   }
 
   &.RecipeCard {
-    padding-top: 1em;
-    width: 50em;
+    padding: 1em 0;
+    width: 35em;
+    height: 70vh;
+    position: relative;
 
+    .ButtonPanel {
+      overflow: auto;
+      position: absolute;
+      bottom: 0;
+      border-top: 1px solid $gray200;
+      padding: 1em 2em;
+      a {
+        margin-right: 1em;
+      }
+    }
   }
+}
+
+.RecipeRow.row > .col {
+  padding: 0;
 }
 
 iframe {
@@ -185,28 +237,46 @@ form {
   margin-right: 2em;
 }
 
-
-.nav-item{
-  outline: none;
-
+.FinishedNoodleSoup {
+  background-image: url("./images/NoodleSoup.svg");
+  width: 540px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.nav-tabs .nav-link {
-  color: $gray500;
+.nav-item {
   outline: none;
-  transition: none;
-  &:hover {
-    border: none;
-    border-bottom: 4px solid $primaryColor;
-  }
+}
 
-  &:focus-visible {
+.nav-tabs {
+  width: 100%;
+  .nav-link {
+    color: $gray500;
     outline: none;
-  }
+    transition: none;
 
-  &.active{
-    color: $primaryColor;
-    border: none;
-    border-bottom: 4px solid $primaryColor;
+    &:hover {
+      border: none;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    &.active {
+      color: $primaryColor;
+      border: none;
+      border-bottom: 4px solid $primaryColor;
+    }
   }
+}
+
+.tab-content {
+  position: absolute;
+  top: 3.8em;
+  bottom: 3.5em;
+  width: 100%;
+  overflow: auto;
+  padding: 1em 2em;
 }

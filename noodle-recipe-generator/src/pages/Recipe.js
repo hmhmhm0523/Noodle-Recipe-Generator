@@ -10,7 +10,7 @@ export default function ControlledTabsExample() {
       <Confetti
         recycle={false}
         numberOfPieces={2000}
-        tweenDuration={50000}
+        tweenDuration={70000}
 
       />
       <Row className='RecipeRow'>

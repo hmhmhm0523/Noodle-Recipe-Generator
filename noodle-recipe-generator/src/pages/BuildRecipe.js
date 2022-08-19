@@ -42,24 +42,24 @@ export default function BuildRecipe() {
 
             <Form.Label>Optional</Form.Label>
             <Row>
-              <Col> <Form.Group className="mb-3" controlId="formBasicCheckbox">
+              <Col> <Form.Group className="mb-2" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Scallion" />
               </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicCheckbox2">
+                <Form.Group className="mb-2" controlId="formBasicCheckbox2">
                   <Form.Check type="checkbox" label="Garlic" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicCheckbox3">
+                <Form.Group className="mb-2" controlId="formBasicCheckbox3">
                   <Form.Check type="checkbox" label="Pickled Beans" />
                 </Form.Group></Col>
 
               <Col>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox4">
+                <Form.Group className="mb-2" controlId="formBasicCheckbox4">
                   <Form.Check type="checkbox" label="Chilli Pepper" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicCheckbox5">
+                <Form.Group className="mb-2" controlId="formBasicCheckbox5">
                   <Form.Check type="checkbox" label="Fried Egg" />
                 </Form.Group></Col>
             </Row>

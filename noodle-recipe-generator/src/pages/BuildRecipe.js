@@ -19,8 +19,9 @@ export default function BuildRecipe() {
             <Form.Group className="mb-3" controlId="formBasicTopping">
               <Form.Label>Topping</Form.Label>
               <Form.Select aria-label="Default select example">
-                <option value="1">Braised Beef</option>
-                <option value="2">Brasied Pork</option>
+                <option value="1">Cilantro Beef</option>
+                <option value="2">Brasied Beef</option>
+                <option value="2">Shredded Pork with Fungus</option>
               </Form.Select>
             </Form.Group>
 
@@ -51,16 +52,20 @@ export default function BuildRecipe() {
                 </Form.Group>
 
                 <Form.Group className="mb-2" controlId="formBasicCheckbox3">
-                  <Form.Check type="checkbox" label="Pickled Beans" />
+                  <Form.Check type="checkbox" label="Pickled Cowpea" />
                 </Form.Group></Col>
 
               <Col>
                 <Form.Group className="mb-2" controlId="formBasicCheckbox4">
-                  <Form.Check type="checkbox" label="Chilli Pepper" />
+                  <Form.Check type="checkbox" label="Fried Egg" />
                 </Form.Group>
 
                 <Form.Group className="mb-2" controlId="formBasicCheckbox5">
-                  <Form.Check type="checkbox" label="Fried Egg" />
+                  <Form.Check type="checkbox" label="Pickled Mustard" />
+                </Form.Group>
+
+                <Form.Group className="mb-2" controlId="formBasicCheckbox6">
+                  <Form.Check type="checkbox" label="Pickled Cabbage" />
                 </Form.Group></Col>
             </Row>
             <Link to="/Noodle-Recipe-Generator/recipe" className="ButtonPanel"><Button >Generate Recipe</Button> </Link>

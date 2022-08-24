@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Noodle-Recipe-Generator/static/css/main.15261d08.css",
-    "main.js": "/Noodle-Recipe-Generator/static/js/main.deb1ab62.js",
+    "main.css": "/Noodle-Recipe-Generator/static/css/main.fb6bd334.css",
+    "main.js": "/Noodle-Recipe-Generator/static/js/main.924b834a.js",
     "static/js/787.ae1215f8.chunk.js": "/Noodle-Recipe-Generator/static/js/787.ae1215f8.chunk.js",
-    "static/media/NoodleSoup.svg": "/Noodle-Recipe-Generator/static/media/NoodleSoup.22b8fbd1f24e977e8041.svg",
+    "static/media/Rosie Eating Noodle-final.png": "/Noodle-Recipe-Generator/static/media/Rosie Eating Noodle-final.020c1bb963a9ac87c50a.png",
+    "static/media/noodle-watercolor-illustratiom.png": "/Noodle-Recipe-Generator/static/media/noodle-watercolor-illustratiom.7fe5b5e3bfd8b0976aab.png",
     "static/media/RamenImage.svg": "/Noodle-Recipe-Generator/static/media/RamenImage.0f51611a808a84afeb53.svg",
     "static/media/Lulo Clean One.otf": "/Noodle-Recipe-Generator/static/media/Lulo Clean One.e1224a54d2df493c076c.otf",
     "static/media/Lulo Clean One Bold.otf": "/Noodle-Recipe-Generator/static/media/Lulo Clean One Bold.5452a28cd207074b0f46.otf",
     "static/media/Recipe Logo.svg": "/Noodle-Recipe-Generator/static/media/Recipe Logo.53125de880810b44dc05.svg",
     "index.html": "/Noodle-Recipe-Generator/index.html",
-    "main.15261d08.css.map": "/Noodle-Recipe-Generator/static/css/main.15261d08.css.map",
-    "main.deb1ab62.js.map": "/Noodle-Recipe-Generator/static/js/main.deb1ab62.js.map",
+    "main.fb6bd334.css.map": "/Noodle-Recipe-Generator/static/css/main.fb6bd334.css.map",
+    "main.924b834a.js.map": "/Noodle-Recipe-Generator/static/js/main.924b834a.js.map",
     "787.ae1215f8.chunk.js.map": "/Noodle-Recipe-Generator/static/js/787.ae1215f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15261d08.css",
-    "static/js/main.deb1ab62.js"
+    "static/css/main.fb6bd334.css",
+    "static/js/main.924b834a.js"
   ]
 }

@@ -13,10 +13,10 @@ export default function Home() {
             </h1>
             <h4>PRESENTED BY MENG HUANG</h4>
             <p>At my home in Hunan China, you can eat noodles for breakfast, dinner, and supper. Almost everyone from Hunan has a story about the noodle restaurant downstairs. This recipe generator is created to help make a bowl of rice noodles in my hometown style.</p>
-            <div><a href="https://www.google.com">Demo Video</a></div>
+            <div><a href="https://youtu.be/EP0pltNpDbA">Watch Demo Video</a></div>
             <div className="iFramePlaceHolder"></div>
             <Link to="buildRecipe" className="ButtonPanel"><Button >GET STARTED</Button> </Link>
         </Card>
-    </Container>
+    </Container >
     )
 }
